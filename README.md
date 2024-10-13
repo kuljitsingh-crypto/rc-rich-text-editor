@@ -1,6 +1,6 @@
-# Simple Rich Text Editor React Component
+# Rc Rich Text Editor React Component
 
-Simple Rich Text Editor is a customizable, rich-text editor component for React applications. It provides a contenteditable div with various text formatting options, placeholder support, and custom styling capabilities.
+Rc Rich Text Editor is a customizable, rich-text editor component for React applications. It provides a contenteditable div with various text formatting options, placeholder support, and custom styling capabilities.
 
 ## Features
 
@@ -24,11 +24,11 @@ or
 
 ## Usage
 
-Here's a basic example of how to use the Simple Rich Text Editor component:
+Here's a basic example of how to use the Rc Rich Text Editor component:
 
 ```jsx
 import React from 'react';
-import {SimpleRichTextEditor} from 'rc-rich-text-editor';
+import {RichTextEditor} from 'rc-rich-text-editor';
 
 const MyComponent = () => {
   const handleTextChange = (content) => {
@@ -36,7 +36,7 @@ const MyComponent = () => {
   };
 
   return (
-    <SimpleRichTextEditor
+    <RichTextEditor
       id="my-editor"
       name="my-editor"
       label="My Editor"
@@ -51,7 +51,7 @@ export default MyComponent;
 
 ## Props
 
-The `SimpleRichTextEditor` component accepts the following props:
+The `RichTextEditor` component accepts the following props:
 
 - `id` (required): Unique identifier for the editor
 - `name` (required): Name attribute for the editor
@@ -77,7 +77,7 @@ const customControlOptions = {
   // ... other options
 };
 
-<SimpleRichTextEditor
+<RichTextEditor
   // ... other props
   controlOptions={customControlOptions}
 />

@@ -1,3 +1,3 @@
 import { EditableDiv } from "./components";
 
-export { EditableDiv as SimpleRichTextEditor };
+export { EditableDiv as RichTextEditor };

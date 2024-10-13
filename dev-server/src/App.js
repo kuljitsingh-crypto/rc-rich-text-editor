@@ -1,12 +1,12 @@
 import React from "react";
-import { SimpleRichTextEditor } from "../../src";
+import { RichTextEditor } from "../../src";
 
 function App() {
   return (
     <div className='root'>
       <div>App</div>
 
-      <SimpleRichTextEditor
+      <RichTextEditor
         id='test'
         name='test'
         label='testing label'
