@@ -11,6 +11,7 @@
   },
   "license": "MIT",
   "author": "Kuljit Singh",
+  "repository": "https://github.com/kuljitsingh-crypto/simple-rich-text-editor",
   "devDependencies": {
     "@babel/cli": "^7.25.6",
     "@babel/core": "^7.25.2",
