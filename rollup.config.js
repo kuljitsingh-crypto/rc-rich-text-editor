@@ -28,19 +28,19 @@ export default function (arg) {
         {
           file: packageJson.main,
           format: "cjs",
-          sourcemap: true,
+          sourcemap: false,
           name: packageJson.name,
         },
         {
           file: packageJson.module,
           format: "esm",
-          sourcemap: true,
+          sourcemap: false,
         },
       ]
     : {
         file: packageJson.main,
         format: "iife",
-        sourcemap: true,
+        sourcemap: false,
         name: packageJson.name,
       };
 
