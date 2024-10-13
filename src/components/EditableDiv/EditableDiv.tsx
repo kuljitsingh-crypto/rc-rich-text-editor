@@ -40,8 +40,8 @@ const stylePlatteArr = [
   "linkInputBorderColor",
   "linkCancelButtonHoverColor",
   "borderRadius",
-  "boxShadowButton",
-  "boxShadowFilterButton",
+  "boxShadowLinkPopupButton",
+  "boxShadowToolbarButton",
   "boxShadowPopup",
 ] as const;
 

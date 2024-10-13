@@ -15,7 +15,7 @@
   /* Border Radius */
   --borderRadius: 2px;
   /* Box shadwow*/
-  --boxShadowButton: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  --boxShadowFilterButton: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  --boxShadowLinkPopupButton: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  --boxShadowToolbarButton: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   --boxShadowPopup: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }

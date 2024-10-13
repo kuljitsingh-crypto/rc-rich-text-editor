@@ -31,7 +31,7 @@
 /* .topbarButtonRoot:active, */
 .topbarButtonRoot:hover {
   background-color: var(--primaryColor);
-  box-shadow: var(--boxShadowFilterButton);
+  box-shadow: var(--boxShadowToolbarButton);
 }
 
 /* .topbarButtonRoot::after {
@@ -57,7 +57,7 @@
 
 .selectedButton {
   background-color: var(--primaryColor);
-  box-shadow: var(--boxShadowFilterButton);
+  box-shadow: var(--boxShadowToolbarButton);
 }
 .btnIcon {
   width: 20px;

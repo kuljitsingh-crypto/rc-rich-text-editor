@@ -169,26 +169,23 @@ Special cases:
    };
    ```
 
+## Available Style Properties
 
+The following properties can be customized using the `stylePlatte` object:
 
-
-## Custom Style Palette
-
-You can customize the look and feel of the editor by providing a `stylePlatte` prop. This prop accepts an object with the following keys:
-
-- `primaryColor`
-- `primaryColorDark`
-- `colorWhite`
-- `colorBlack`
-- `placeholderTextColor`
-- `toolbarBorderColor`
-- `editorBorderColor`
-- `linkInputBorderColor`
-- `linkCancelButtonHoverColor`
-- `borderRadius`
-- `boxShadowButton`
-- `boxShadowFilterButton`
-- `boxShadowPopup`
+- `primaryColor`: Main color for interactive elements
+- `primaryColorDark`: Darker shade of the primary color
+- `colorWhite`: Color for light elements
+- `colorBlack`: Color for dark elements
+- `placeholderTextColor`: Color for placeholder text
+- `toolbarBorderColor`: Border color for the toolbar
+- `editorBorderColor`: Border color for the editor
+- `linkInputBorderColor`: Border color for link input fields
+- `linkCancelButtonHoverColor`: Hover color for link cancel buttons
+- `borderRadius`: Border radius for various elements
+- `boxShadowLinkPopupButton`: Box shadow for link popup buttons
+- `boxShadowToolbarButton`: Box shadow for toolbar buttons
+- `boxShadowPopup`: Box shadow for popup elements
 
 
 ## Screenshot
@@ -204,5 +201,4 @@ The component includes basic accessibility features, such as proper ARIA attribu
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to add new features, feel free to open an issue or submit a pull request.
-
 

@@ -92,7 +92,7 @@
 .insertButton:hover {
   background-color: transparent;
   color: var(--colorBlack);
-  box-shadow: var(--boxShadowButton);
+  box-shadow: var(--boxShadowLinkPopupButton);
 }
 .insertButton:disabled {
   opacity: 0.4;
@@ -107,7 +107,7 @@
 .cancelButton:focus,
 .cancelButton:hover {
   background-color: var(--linkCancelButtonHoverColor);
-  box-shadow: var(--boxShadowButton);
+  box-shadow: var(--boxShadowLinkPopupButton);
 }
 .cancelButton:disabled {
   opacity: 0.5;
