@@ -16,11 +16,11 @@ Simple Rich Text Editor is a customizable, rich-text editor component for React 
 
 To use this component in your React project, follow these steps:
 
-``` yarn add simple-rich-text-editor``` 
+``` yarn add rc-rich-text-editor``` 
 
 or
 
-``` npm install simple-rich-text-editor ```
+``` npm install rc-rich-text-editor ```
 
 ## Usage
 
@@ -28,7 +28,7 @@ Here's a basic example of how to use the Simple Rich Text Editor component:
 
 ```jsx
 import React from 'react';
-import {SimpleRichTextEditor} from 'simple-rich-text-editor';
+import {SimpleRichTextEditor} from 'rc-rich-text-editor';
 
 const MyComponent = () => {
   const handleTextChange = (content) => {
