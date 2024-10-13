@@ -1,14 +1,16 @@
 {
-  "name": "lib-template",
+  "name": "simple-rich-text-editor",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "description": "Simple Rich Text Editor is a customizable, rich-text editor component for React applications. It provides a contenteditable div with various text formatting options, placeholder support, and custom styling capabilities.",
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "license": "MIT",
+  "author": "Kuljit Singh",
   "devDependencies": {
     "@babel/cli": "^7.25.6",
     "@babel/core": "^7.25.2",
@@ -45,5 +47,13 @@
   "scripts": {
     "dev-start": "rollup -c rollup.dev.config.js -w --bundleConfigAsCjs",
     "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
-  }
+  },
+  "dependencies": {
+    "@types/dompurify": "^3.0.5",
+    "core-js": "^3.38.1",
+    "dompurify": "^3.1.7",
+    "rc-simple-select": "^1.10.2",
+    "react-icons": "^5.3.0"
+  },
+  "keywords": ["rich text","editor","simple editor","react editor"]
 }

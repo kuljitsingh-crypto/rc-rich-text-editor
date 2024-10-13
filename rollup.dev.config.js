@@ -24,7 +24,7 @@ export default {
       extensions: [".css"],
     }),
     nodeResolve({
-      extensions: [".js"],
+      extensions: [".js", ".jsx", ".ts", ".tsx"],
     }),
     replace({
       "process.env.NODE_ENV": JSON.stringify("development"),
@@ -32,7 +32,10 @@ export default {
     svgr(),
     typescript({ tsconfig: "./tsconfig.json" }),
     babel({
-      presets: ["@babel/preset-react"],
+      babelHelpers: "bundled",
+      presets: ["@babel/preset-react", "@babel/preset-env"],
+      exclude: "node_modules/**", // Exclude node_modules from transpiling
+      extensions: [".js", ".jsx", ".ts", ".tsx"], // Transpile these file types
     }),
     commonjs(),
     serve({

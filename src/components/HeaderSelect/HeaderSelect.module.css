@@ -1,0 +1,14 @@
+.headerRoot {
+  width: 136px;
+}
+
+.selectOption {
+  margin: 0px !important;
+}
+
+.optionShow {
+  border-radius: var(--borderRadius) !important;
+  border-color: var(--primaryColor);
+  padding-top: 6px;
+  padding-bottom: 6px;
+}

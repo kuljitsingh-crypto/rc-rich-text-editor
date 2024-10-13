@@ -1,0 +1,86 @@
+.topbarRoot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 4px;
+  border: 1px solid var(--toolbarBorderColor);
+  box-sizing: border-box;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.multiButton {
+}
+
+.topbarButtonRoot {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  border-radius: var(--borderRadius);
+  cursor: pointer;
+  margin: 3px;
+  position: relative;
+  border: 1px solid var(--primaryColor);
+}
+
+/* .topbarButtonRoot:active, */
+.topbarButtonRoot:hover {
+  background-color: var(--primaryColor);
+  box-shadow: var(--boxShadowFilterButton);
+}
+
+/* .topbarButtonRoot::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  background-color: red;
+  color: "black";
+  height: 24px;
+} */
+
+.topbarButtonRoot .topbarButton {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.selectedButton {
+  background-color: var(--primaryColor);
+  box-shadow: var(--boxShadowFilterButton);
+}
+.btnIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.emojiRoot {
+  position: relative;
+  margin: 3px;
+}
+.emojiRoot .topbarButtonRoot {
+  margin: 0px;
+}
+
+.emojiContainer,
+.linkContainer {
+  position: absolute;
+  top: inherit;
+  display: none;
+  z-index: 1;
+}
+
+.showEmojiPopup,
+.showLinkPopup {
+  display: block;
+}

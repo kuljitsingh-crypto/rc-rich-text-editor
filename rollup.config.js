@@ -89,8 +89,8 @@ export default function (arg) {
       isEnvDevelopment &&
         babel({
           babelHelpers: "bundled",
+          presets: ["@babel/preset-react", "@babel/preset-env"],
           exclude: "node_modules/**", // Exclude node_modules from transpiling
-          presets: ["@babel/preset-react"], // Preset for JSX
           extensions: [".js", ".jsx", ".ts", ".tsx"], // Transpile these file types
         }),
     ].filter(Boolean);

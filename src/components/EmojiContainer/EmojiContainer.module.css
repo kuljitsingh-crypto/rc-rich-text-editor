@@ -1,0 +1,95 @@
+.root {
+  background-color: var(--colorWhite);
+  overflow: hidden;
+  text-align: left;
+  width: 280px;
+  box-sizing: border-box;
+  padding: 16px 8px;
+  box-shadow: var(--boxShadowPopup);
+  border-radius: var(--borderRadius);
+}
+
+.root button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: var(--borderRadius);
+}
+
+.root button:hover,
+.root button:focus {
+  background-color: var(--primaryColor);
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0px 0px 12px;
+}
+
+.top button {
+  flex-basis: 13%;
+  max-width: 13%;
+}
+
+.btnCategory {
+  padding: 0;
+  margin: 2px;
+  height: 36px;
+  font-size: 20px;
+  position: relative;
+}
+
+.btnCategory::after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  bottom: -8px;
+  left: 0px;
+  background-color: var(--primaryColorDark);
+  width: 100%;
+  height: 4px;
+}
+
+.selectedButtonCategory::after {
+  opacity: 1;
+}
+
+.emojiBtn {
+  width: 36px;
+  height: 36px;
+  padding: 0px;
+  margin: 4px 2px;
+  font-size: 24px;
+}
+
+.emojiContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bottom {
+  max-height: 280px;
+  overflow-y: auto;
+  margin-top: 16px;
+}
+
+.categoryName {
+  color: var(--colorBlack);
+  font-size: 20px;
+  line-height: 36px;
+  margin-bottom: 8px;
+  width: 100%;
+  display: block;
+}
+
+.btnLableValueContainer {
+  padding: 4px 0px 12px;
+}
+.btnLableValueContainer:first-child {
+  padding-top: 0px;
+}

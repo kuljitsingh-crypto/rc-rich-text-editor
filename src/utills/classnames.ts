@@ -1,4 +1,4 @@
-const CLASS_NAME_PREFIX = "rc_simple_select_";
+const CLASS_NAME_PREFIX = "";
 
 type StringClass = string;
 type ObjectClass = { [name: string]: boolean };

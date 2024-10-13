@@ -1,0 +1,66 @@
+.root {
+  background-color: transparent;
+  width: 100%;
+  max-width: 100%;
+}
+.inputContainer {
+  position: relative;
+  padding: 16px;
+  border: 1px solid var(--editorBorderColor);
+  /* box-sizing: border-box; */
+  background-color: var(--colorWhite);
+  color: var(--colorBlack);
+}
+.input {
+  width: 100%;
+  text-align: left;
+  min-height: 200px;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+  border: none;
+  outline: none !important;
+  font-size: 16px;
+  line-height: 24px;
+  word-break: break-all;
+  position: relative;
+
+  background-color: transparent;
+}
+
+.input p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.input li {
+  list-style-type: inherit;
+}
+
+.input ol,
+.input ul {
+  padding-left: 4px;
+  list-style-position: inside;
+}
+
+.placeholderText {
+  color: var(--placeholderTextColor);
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* .placeholderContainer {
+} */
+
+.placeholderContainer p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.placeholderContainer h1 {
+  top: 0px;
+}
