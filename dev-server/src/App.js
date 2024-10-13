@@ -1,5 +1,6 @@
 import React from "react";
-import { RichTextEditor } from "../../src";
+import { RichTextEditor } from "rc-rich-text-editor";
+// import { RichTextEditor } from "../../src";
 
 function App() {
   return (
