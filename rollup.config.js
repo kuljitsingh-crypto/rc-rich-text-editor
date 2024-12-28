@@ -107,13 +107,14 @@ export default function (arg) {
   const config = isEnvProduction
     ? [
         baseConfig,
-        {
-          input: inputPath,
-          output: [{ file: packageJson.types }],
-          plugins: [dts.default()],
-          external: [/\.css$/],
-        },
+        // {
+        //   input: inputPath,
+        //   output: [{ file: packageJson.types }],
+        //   plugins: [dts.default()],
+        //   external: [/\.css$/],
+        // },
       ]
     : baseConfig;
+
   return config;
 }
