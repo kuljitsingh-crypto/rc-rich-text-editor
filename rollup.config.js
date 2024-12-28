@@ -31,11 +31,11 @@ export default function (arg) {
           sourcemap: false,
           name: packageJson.name,
         },
-        {
-          file: packageJson.module,
-          format: "esm",
-          sourcemap: false,
-        },
+        // {
+        //   file: packageJson.module,
+        //   format: "esm",
+        //   sourcemap: false,
+        // },
       ]
     : {
         file: packageJson.main,
