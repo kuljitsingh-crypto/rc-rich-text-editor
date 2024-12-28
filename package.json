@@ -2,7 +2,7 @@
   "name": "rc-rich-text-editor",
   "version": "1.0.3",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  
   "types": "dist/index.d.ts",
   "description": "Simple Rich Text Editor is a customizable, rich-text editor component for React applications. It provides a contenteditable div with various text formatting options, placeholder support, and custom styling capabilities.",
   "peerDependencies": {
